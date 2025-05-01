@@ -5,7 +5,7 @@ gem 'rails', '4.0.2'
 
 gem 'rails-api'
 
-gem 'rspec-rails'
+gem 'rspec-rails', '>= 8.0.0'
 gem 'mongo'
 gem 'bson_ext'
 # gem 'pry-debugger'
