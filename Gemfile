@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.2'
+gem 'rails', '7.1.0'
 
-gem 'rails-api'
+gem 'rails-api', '>= 0.2.0'
 
-gem 'rspec-rails'
+gem 'rspec-rails', '>= 2.14.1'
 gem 'mongo'
 gem 'bson_ext'
 # gem 'pry-debugger'
@@ -16,7 +16,7 @@ gem 'timecop'
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.0.1'
 
 # Use unicorn as the app server
 # gem 'unicorn'
